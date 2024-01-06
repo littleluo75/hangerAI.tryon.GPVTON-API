@@ -1,0 +1,10 @@
+torch
+torchvision
+tensorboard
+tensorboardX
+opencv-python
+tqdm
+pycocotools
+scipy
+cupy-cuda11x
+numpy

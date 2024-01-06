@@ -1,0 +1,176 @@
+NOTE: Redirects are currently not supported in Windows or MacOs.
+C:\Users\win\anaconda3\lib\site-packages\torch\distributed\launch.py:178: FutureWarning: The module torch.distributed.launch is deprecated
+and will be removed in future. Use torchrun.
+Note that --use_env is set by default in torchrun.
+If your script expects `--local_rank` argument to be set, please
+change it to read from `os.environ['LOCAL_RANK']` instead. See 
+https://pytorch.org/docs/stable/distributed.html#launch-utility for 
+further instructions
+
+  warnings.warn(
+WARNING:torch.distributed.run:
+*****************************************
+Setting OMP_NUM_THREADS environment variable for each process to be 1 in default, to avoid your system being overloaded, please further tune the variable for optimal performance in your application as needed. 
+*****************************************
+Traceback (most recent call last):
+  File "D:\code\Python\HangersAI\GP-VTON\test_warping.py", line 2, in <module>
+    from models.networks import load_checkpoint_parallel
+  File "D:\code\Python\HangersAI\GP-VTON\models\networks.py", line 10, in <module>
+    opt = TrainOptions().parse()
+  File "D:\code\Python\HangersAI\GP-VTON\options\base_options.py", line 72, in parse
+    torch.cuda.set_device(self.opt.gpu_ids[0])
+  File "C:\Users\win\anaconda3\lib\site-packages\torch\cuda\__init__.py", line 311, in set_device
+    torch._C._cuda_setDevice(device)
+AttributeError: module 'torch._C' has no attribute '_cuda_setDevice'
+Traceback (most recent call last):
+  File "D:\code\Python\HangersAI\GP-VTON\test_warping.py", line 2, in <module>
+    from models.networks import load_checkpoint_parallel
+  File "D:\code\Python\HangersAI\GP-VTON\models\networks.py", line 10, in <module>
+    opt = TrainOptions().parse()
+  File "D:\code\Python\HangersAI\GP-VTON\options\base_options.py", line 72, in parse
+    torch.cuda.set_device(self.opt.gpu_ids[0])
+  File "C:\Users\win\anaconda3\lib\site-packages\torch\cuda\__init__.py", line 311, in set_device
+    torch._C._cuda_setDevice(device)
+AttributeError: module 'torch._C' has no attribute '_cuda_setDevice'
+Traceback (most recent call last):
+  File "D:\code\Python\HangersAI\GP-VTON\test_warping.py", line 2, in <module>
+    from models.networks import load_checkpoint_parallel
+  File "D:\code\Python\HangersAI\GP-VTON\models\networks.py", line 10, in <module>
+    opt = TrainOptions().parse()
+  File "D:\code\Python\HangersAI\GP-VTON\options\base_options.py", line 72, in parse
+    torch.cuda.set_device(self.opt.gpu_ids[0])
+  File "C:\Users\win\anaconda3\lib\site-packages\torch\cuda\__init__.py", line 311, in set_device
+    torch._C._cuda_setDevice(device)
+AttributeError: module 'torch._C' has no attribute '_cuda_setDevice'
+Traceback (most recent call last):
+  File "D:\code\Python\HangersAI\GP-VTON\test_warping.py", line 2, in <module>
+    from models.networks import load_checkpoint_parallel
+  File "D:\code\Python\HangersAI\GP-VTON\models\networks.py", line 10, in <module>
+    opt = TrainOptions().parse()
+  File "D:\code\Python\HangersAI\GP-VTON\options\base_options.py", line 72, in parse
+    torch.cuda.set_device(self.opt.gpu_ids[0])
+  File "C:\Users\win\anaconda3\lib\site-packages\torch\cuda\__init__.py", line 311, in set_device
+    torch._C._cuda_setDevice(device)
+AttributeError: module 'torch._C' has no attribute '_cuda_setDevice'
+Traceback (most recent call last):
+  File "D:\code\Python\HangersAI\GP-VTON\test_warping.py", line 2, in <module>
+    from models.networks import load_checkpoint_parallel
+  File "D:\code\Python\HangersAI\GP-VTON\models\networks.py", line 10, in <module>
+    opt = TrainOptions().parse()
+  File "D:\code\Python\HangersAI\GP-VTON\options\base_options.py", line 72, in parse
+    torch.cuda.set_device(self.opt.gpu_ids[0])
+  File "C:\Users\win\anaconda3\lib\site-packages\torch\cuda\__init__.py", line 311, in set_device
+    torch._C._cuda_setDevice(device)
+AttributeError: module 'torch._C' has no attribute '_cuda_setDevice'
+Traceback (most recent call last):
+  File "D:\code\Python\HangersAI\GP-VTON\test_warping.py", line 2, in <module>
+    from models.networks import load_checkpoint_parallel
+  File "D:\code\Python\HangersAI\GP-VTON\models\networks.py", line 10, in <module>
+    opt = TrainOptions().parse()
+  File "D:\code\Python\HangersAI\GP-VTON\options\base_options.py", line 72, in parse
+    torch.cuda.set_device(self.opt.gpu_ids[0])
+  File "C:\Users\win\anaconda3\lib\site-packages\torch\cuda\__init__.py", line 311, in set_device
+    torch._C._cuda_setDevice(device)
+AttributeError: module 'torch._C' has no attribute '_cuda_setDevice'
+Traceback (most recent call last):
+  File "D:\code\Python\HangersAI\GP-VTON\test_warping.py", line 2, in <module>
+    from models.networks import load_checkpoint_parallel
+  File "D:\code\Python\HangersAI\GP-VTON\models\networks.py", line 10, in <module>
+    opt = TrainOptions().parse()
+  File "D:\code\Python\HangersAI\GP-VTON\options\base_options.py", line 72, in parse
+    torch.cuda.set_device(self.opt.gpu_ids[0])
+  File "C:\Users\win\anaconda3\lib\site-packages\torch\cuda\__init__.py", line 311, in set_device
+    torch._C._cuda_setDevice(device)
+AttributeError: module 'torch._C' has no attribute '_cuda_setDevice'
+Traceback (most recent call last):
+  File "D:\code\Python\HangersAI\GP-VTON\test_warping.py", line 2, in <module>
+    from models.networks import load_checkpoint_parallel
+  File "D:\code\Python\HangersAI\GP-VTON\models\networks.py", line 10, in <module>
+    opt = TrainOptions().parse()
+  File "D:\code\Python\HangersAI\GP-VTON\options\base_options.py", line 72, in parse
+    torch.cuda.set_device(self.opt.gpu_ids[0])
+  File "C:\Users\win\anaconda3\lib\site-packages\torch\cuda\__init__.py", line 311, in set_device
+    torch._C._cuda_setDevice(device)
+AttributeError: module 'torch._C' has no attribute '_cuda_setDevice'
+ERROR:torch.distributed.elastic.multiprocessing.api:failed (exitcode: 1) local_rank: 0 (pid: 8104) of binary: C:\Users\win\anaconda3\python.exe
+Traceback (most recent call last):
+  File "C:\Users\win\anaconda3\lib\runpy.py", line 197, in _run_module_as_main
+    return _run_code(code, main_globals, None,
+  File "C:\Users\win\anaconda3\lib\runpy.py", line 87, in _run_code
+    exec(code, run_globals)
+  File "C:\Users\win\anaconda3\lib\site-packages\torch\distributed\launch.py", line 193, in <module>
+    main()
+  File "C:\Users\win\anaconda3\lib\site-packages\torch\distributed\launch.py", line 189, in main
+    launch(args)
+  File "C:\Users\win\anaconda3\lib\site-packages\torch\distributed\launch.py", line 174, in launch
+    run(args)
+  File "C:\Users\win\anaconda3\lib\site-packages\torch\distributed\run.py", line 710, in run
+    elastic_launch(
+  File "C:\Users\win\anaconda3\lib\site-packages\torch\distributed\launcher\api.py", line 131, in __call__
+    return launch_agent(self._config, self._entrypoint, list(args))
+  File "C:\Users\win\anaconda3\lib\site-packages\torch\distributed\launcher\api.py", line 259, in launch_agent
+    raise ChildFailedError(
+torch.distributed.elastic.multiprocessing.errors.ChildFailedError: 
+============================================================
+D:\code\Python\HangersAI\GP-VTON\test_warping.py FAILED
+------------------------------------------------------------
+Failures:
+[1]:
+  time      : 2023-09-23_01:06:04
+  host      : DESKTOP-NK2E2IH
+  rank      : 1 (local_rank: 1)
+  exitcode  : 1 (pid: 8240)
+  error_file: <N/A>
+  traceback : To enable traceback see: https://pytorch.org/docs/stable/elastic/errors.html
+[2]:
+  time      : 2023-09-23_01:06:04
+  host      : DESKTOP-NK2E2IH
+  rank      : 2 (local_rank: 2)
+  exitcode  : 1 (pid: 9148)
+  error_file: <N/A>
+  traceback : To enable traceback see: https://pytorch.org/docs/stable/elastic/errors.html
+[3]:
+  time      : 2023-09-23_01:06:04
+  host      : DESKTOP-NK2E2IH
+  rank      : 3 (local_rank: 3)
+  exitcode  : 1 (pid: 8508)
+  error_file: <N/A>
+  traceback : To enable traceback see: https://pytorch.org/docs/stable/elastic/errors.html
+[4]:
+  time      : 2023-09-23_01:06:04
+  host      : DESKTOP-NK2E2IH
+  rank      : 4 (local_rank: 4)
+  exitcode  : 1 (pid: 2904)
+  error_file: <N/A>
+  traceback : To enable traceback see: https://pytorch.org/docs/stable/elastic/errors.html
+[5]:
+  time      : 2023-09-23_01:06:04
+  host      : DESKTOP-NK2E2IH
+  rank      : 5 (local_rank: 5)
+  exitcode  : 1 (pid: 16228)
+  error_file: <N/A>
+  traceback : To enable traceback see: https://pytorch.org/docs/stable/elastic/errors.html
+[6]:
+  time      : 2023-09-23_01:06:04
+  host      : DESKTOP-NK2E2IH
+  rank      : 6 (local_rank: 6)
+  exitcode  : 1 (pid: 4464)
+  error_file: <N/A>
+  traceback : To enable traceback see: https://pytorch.org/docs/stable/elastic/errors.html
+[7]:
+  time      : 2023-09-23_01:06:04
+  host      : DESKTOP-NK2E2IH
+  rank      : 7 (local_rank: 7)
+  exitcode  : 1 (pid: 16208)
+  error_file: <N/A>
+  traceback : To enable traceback see: https://pytorch.org/docs/stable/elastic/errors.html
+------------------------------------------------------------
+Root Cause (first observed failure):
+[0]:
+  time      : 2023-09-23_01:06:04
+  host      : DESKTOP-NK2E2IH
+  rank      : 0 (local_rank: 0)
+  exitcode  : 1 (pid: 8104)
+  error_file: <N/A>
+  traceback : To enable traceback see: https://pytorch.org/docs/stable/elastic/errors.html
+============================================================
